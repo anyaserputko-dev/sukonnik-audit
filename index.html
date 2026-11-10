@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Аудит Instagram · Людмила Суконнік</title>
+<meta name="description" content="Аудит Instagram-сторінки психолога й нумеролога Людмили Суконнік (Малин): як зараз і як варто.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#141216;--bg2:#1c1a20;--card:#221f27;--line:#34303b;--text:#f3eff5;--muted:#b4acbb;--dim:#8d8496;--accent:#c9a7ff;--accent2:#e8c9a0;--good:#9fd8b4;--warn:#ffb4a2}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:Manrope,system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(201,167,255,.35)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:Unbounded,Manrope,sans-serif;font-weight:500;letter-spacing:-.01em;margin:0}
+h1{font-size:clamp(28px,5vw,46px);line-height:1.12}
+h2{font-size:clamp(22px,3.4vw,30px);line-height:1.2;margin-bottom:16px}
+h3{font-size:18px;line-height:1.3}
+p{margin:0 0 12px}
+.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent2);margin-bottom:14px}
+header.hero{padding:52px 0 30px;background:radial-gradient(900px 400px at 85% 0%,rgba(201,167,255,.16),transparent 60%),radial-gradient(700px 360px at 0% 10%,rgba(232,201,160,.10),transparent 60%)}
+.hero .sub{color:var(--muted);max-width:720px;margin-top:14px;font-size:17px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 16px 14px}
+.stat b{display:block;font-family:Unbounded,sans-serif;font-weight:500;font-size:28px;line-height:1.1}
+.stat span{display:block;color:var(--muted);font-size:14px;margin-top:6px;line-height:1.35}
+section{padding:36px 0;border-top:1px solid var(--line)}
+.lead{font-size:19px;max-width:820px}
+.lead em{font-style:normal;color:var(--accent2)}
+.pair{background:var(--bg2);border:1px solid var(--line);border-radius:24px;padding:22px;margin-bottom:22px}
+.phead{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.num{display:inline-block;font-family:Unbounded,sans-serif;font-size:13px;color:var(--bg);background:var(--accent);border-radius:999px;padding:4px 11px}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:780px;margin:0 auto;align-items:start}
+.duo figure{margin:0}
+.lab{font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+.lab.now{color:var(--warn)}.lab.todo{color:var(--good)}
+a.shot{display:block;border:1px solid #3a3540;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 12px 30px rgba(0,0,0,.35)}
+a.shot img{display:block;width:100%;height:auto}
+.note{max-width:780px;margin:14px auto 0;font-size:16px}
+ul.clean{list-style:none;padding:0;margin:0}
+ul.clean li{padding:12px 0 12px 30px;position:relative;border-bottom:1px solid var(--line)}
+ul.clean li:last-child{border-bottom:0}
+ul.clean li:before{content:"";position:absolute;left:4px;top:21px;width:10px;height:10px;border-radius:50%;background:var(--good)}
+.comp{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.cc{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px}
+.cc h3{font-size:16px;margin-bottom:6px}
+.cc .nums{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;color:var(--muted);margin:6px 0 10px}
+.cc .nums b{color:var(--text);font-weight:700}
+.callout{background:linear-gradient(135deg,rgba(201,167,255,.12),rgba(232,201,160,.08));border:1px solid var(--line);border-radius:20px;padding:18px 20px;margin-top:18px}
+.plan{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.plan div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.plan b{display:block;font-family:Unbounded,sans-serif;font-weight:500;font-size:15px;margin-bottom:8px;color:var(--accent2)}
+.packs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pack{background:var(--bg2);border:1px solid var(--line);border-radius:24px;padding:26px;display:flex;flex-direction:column}
+.pack.main{border-color:rgba(201,167,255,.55);box-shadow:0 0 0 1px rgba(201,167,255,.25) inset}
+.pack .price{font-family:Unbounded,sans-serif;font-size:32px;font-weight:500;margin:6px 0 2px}
+.pack .per{color:var(--muted);font-size:14px;margin-bottom:16px}
+.pack ul{padding-left:20px;margin:0 0 14px}
+.pack li{margin-bottom:7px}
+.pack .time{font-size:15px;background:rgba(255,255,255,.04);border-radius:14px;padding:12px 14px;margin-top:auto}
+.pack .closes{font-size:14px;color:var(--muted);margin-top:10px}
+.extras{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.extra{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.extra .p{font-family:Unbounded,sans-serif;font-size:18px;color:var(--accent2);margin-top:6px}
+.src{font-size:13px;color:var(--dim)}
+footer{padding:36px 0 60px;border-top:1px solid var(--line);color:var(--dim);font-size:13px}
+footer p{margin-bottom:8px}
+@media (max-width:700px){
+  body{font-size:16px}
+  .wrap{padding:0 16px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .lead{font-size:17px}
+  .pair{padding:14px;border-radius:20px}
+  .duo{grid-template-columns:1fr;gap:14px}
+  .note{font-size:15px;margin-top:12px}
+  .comp,.packs,.extras,.plan{grid-template-columns:1fr}
+}
+
+.cc .src{margin-bottom:2px}
+.pack .closes{margin-top:auto;padding-top:10px}
+@media (max-width:900px){.packs{grid-template-columns:1fr}}
+
+/* light-theme-mdv:start */
+:root{--bg:#EFEFEF;--bg2:#fff;--card:#fff;--line:#dcdcdc;--text:#262626;--muted:#4d4d4d;--dim:#777;--good:#2E8B57;--warn:#C0392B;--accent:#9A4F2C;--terra:#5F6B33;--accent2:#5F6B33}
+header.hero{position:relative;overflow:hidden;background:none}
+header.hero>.wrap{position:relative;z-index:1}
+.silk{position:absolute;z-index:0;top:-70px;right:-150px;width:720px;pointer-events:none;user-select:none}
+.num{color:#fff}
+a.shot{border-color:#d6d6d6;box-shadow:0 10px 26px rgba(0,0,0,.10)}
+.strip a,a.sl{box-shadow:0 8px 22px rgba(0,0,0,.14)}
+.strip::-webkit-scrollbar-thumb{background:#c9c9c9}
+.pair,.ex,.set,.stat,.fc,.plan div,.wk,.offer{box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.offer .time{background:#F2F2F2}
+.herorow img{border-color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+@media (max-width:700px){.silk{width:300px;top:-110px;right:-130px;opacity:.7}}
+/* light-theme-mdv:end */
+</style>
+</head>
+<body>
+
+<header class="hero"><img class="silk" src="img/silk.png" alt="" aria-hidden="true">
+  <div class="wrap">
+    <div class="kicker">Аудит Instagram · 10 листопада 2026</div>
+    <h1>Людмила Суконнік,<br>психолог і нумеролог, Малин</h1>
+    <p class="sub">Розбір публічної сторінки <a href="https://www.instagram.com/sukonnik_mila/">@sukonnik_mila</a> станом на 10.11.2026.</p>
+    <div class="stats">
+      <div class="stat"><b>239</b><span>читачів</span></div>
+      <div class="stat"><b>48</b><span>дописів за 12 місяців</span></div>
+      <div class="stat"><b>305</b><span>медіана переглядів рілса (7 рілсів)</span></div>
+      <div class="stat"><b>4</b><span>дописи за останні 30 днів</span></div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Коротко</h2>
+    <p class="lead">Записам заважають три речі: <em>у шапці немає міста й запису</em>, <em>стокові картинки замість вас</em> і <em>паузи до 58 днів</em>.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Як зараз і як варто</h2>
+    <p class="lead" style="margin-bottom:20px">У кожній парі змінено одне. Натисніть, щоб відкрити весь екран.</p>
+    <div class="pair" id="p01">
+      <div class="phead"><span class="num">01</span><h3>Шлях до запису в шапці</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/prof_before.jpg" target="_blank"><img src="img/c_bio_now.jpg" alt="Як зараз: Шлях до запису в шапці" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/prof_after_bio.jpg" target="_blank"><img src="img/c_bio_should.jpg" alt="Як варто: Шлях до запису в шапці" loading="lazy"></a></figure>
+      </div>
+      <p class="note">Зараз немає міста, формату й запису. Варто: Малин і онлайн, ваші теми, один заклик.</p>
+    </div>
+    <div class="pair" id="p02">
+      <div class="phead"><span class="num">02</span><h3>Малин в імені профілю</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/prof_before.jpg" target="_blank"><img src="img/c_name_now.jpg" alt="Як зараз: Малин в імені профілю" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/prof_after_name.jpg" target="_blank"><img src="img/c_name_should.jpg" alt="Як варто: Малин в імені профілю" loading="lazy"></a></figure>
+      </div>
+      <p class="note">Пошук Instagram читає поле імені. Варто додати «Малин», щоб вас знаходили місцеві.</p>
+    </div>
+    <div class="pair" id="p03">
+      <div class="phead"><span class="num">03</span><h3>Опис у Telegram</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/tg_before.jpg" target="_blank"><img src="img/c_tg_now.jpg" alt="Як зараз: Опис у Telegram" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/tg_after.jpg" target="_blank"><img src="img/c_tg_should.jpg" alt="Як варто: Опис у Telegram" loading="lazy"></a></figure>
+      </div>
+      <p class="note">Лінк веде в Telegram без опису. Варто: хто ви і що тут запис.</p>
+    </div>
+    <div class="pair" id="p04">
+      <div class="phead"><span class="num">04</span><h3>Кнопка «Контакти»</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/prof_before.jpg" target="_blank"><img src="img/c_contacts_now.jpg" alt="Як зараз: Кнопка «Контакти»" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/prof_after_contacts.jpg" target="_blank"><img src="img/c_contacts_should.jpg" alt="Як варто: Кнопка «Контакти»" loading="lazy"></a></figure>
+      </div>
+      <p class="note">Зараз лише «Повідомлення». Варто увімкнути «Контакти»: телефон або email.</p>
+    </div>
+    <div class="pair" id="p05">
+      <div class="phead"><span class="num">05</span><h3>Категорія «Психолог»</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/prof_before.jpg" target="_blank"><img src="img/c_cat_now.jpg" alt="Як зараз: Категорія «Психолог»" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/prof_after_cat.jpg" target="_blank"><img src="img/c_cat_should.jpg" alt="Як варто: Категорія «Психолог»" loading="lazy"></a></figure>
+      </div>
+      <p class="note">Зараз «Автор цифрового контенту». Варто обрати категорію «Психолог».</p>
+    </div>
+    <div class="pair" id="p06">
+      <div class="phead"><span class="num">06</span><h3>Три закріплені дописи</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/grid_before.jpg" target="_blank"><img src="img/c_pins_now.jpg" alt="Як зараз: Три закріплені дописи" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/grid_after_pins.jpg" target="_blank"><img src="img/c_pins_should.jpg" alt="Як варто: Три закріплені дописи" loading="lazy"></a></figure>
+      </div>
+      <p class="note">Зараз закріплене одне знайомство. Варто додати атестацію (108 вподобайок) і тренінг 15.11.</p>
+    </div>
+    <div class="pair" id="p07">
+      <div class="phead"><span class="num">07</span><h3>Хайлайти по шляху клієнтки</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/prof_before.jpg" target="_blank"><img src="img/c_hl_now.jpg" alt="Як зараз: Хайлайти по шляху клієнтки" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/prof_after_hl.jpg" target="_blank"><img src="img/c_hl_should.jpg" alt="Як варто: Хайлайти по шляху клієнтки" loading="lazy"></a></figure>
+      </div>
+      <p class="note">Зараз один хайлайт. Варто: Про мене, Запис, Тренінги, Цифри, Відгуки.</p>
+    </div>
+    <div class="pair" id="p08">
+      <div class="phead"><span class="num">08</span><h3>Стрічка з вашим обличчям</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/feed_before.jpg" target="_blank"><img src="img/c_feed_now.jpg" alt="Як зараз: Стрічка з вашим обличчям" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/feed_after.jpg" target="_blank"><img src="img/c_feed_should.jpg" alt="Як варто: Стрічка з вашим обличчям" loading="lazy"></a></figure>
+      </div>
+      <p class="note">Психологічні дописи мають медіану 8 вподобайок, особисті 21. Варто: ті самі теми на ваших фото.</p>
+    </div>
+    <div class="pair" id="p09">
+      <div class="phead"><span class="num">09</span><h3>Тема на обкладинці рілса</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/reels_before.jpg" target="_blank"><img src="img/c_cover_now.jpg" alt="Як зараз: Тема на обкладинці рілса" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/reels_after.jpg" target="_blank"><img src="img/c_cover_should.jpg" alt="Як варто: Тема на обкладинці рілса" loading="lazy"></a></figure>
+      </div>
+      <p class="note">На обкладинках немає ні вас, ні теми. Варто: ваше фото і тема з підпису.</p>
+    </div>
+    <div class="pair" id="p10">
+      <div class="phead"><span class="num">10</span><h3>Заклик у підписі</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/cta_before.jpg" target="_blank"><img src="img/c_cta_now.jpg" alt="Як зараз: Заклик у підписі" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/cta_after.jpg" target="_blank"><img src="img/c_cta_should.jpg" alt="Як варто: Заклик у підписі" loading="lazy"></a></figure>
+      </div>
+      <p class="note">У 23 з 25 психологічних дописів немає заклику. Варто: одне речення, куди писати.</p>
+    </div>
+    <div class="pair" id="p11">
+      <div class="phead"><span class="num">11</span><h3>Регулярний ритм</h3></div>
+      <div class="duo">
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/cal_now.jpg" target="_blank"><img src="img/c_rhythm_now.jpg" alt="Як зараз: Регулярний ритм" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/cal_should.jpg" target="_blank"><img src="img/c_rhythm_should.jpg" alt="Як варто: Регулярний ритм" loading="lazy"></a></figure>
+      </div>
+      <p class="note">За 14 тижнів 7 дописів, пауза 58 днів. Варто: 3 на тиждень.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Що вже працює</h2>
+    <ul class="clean">
+      <li><b>Особисте.</b> Атестація 108 вподобайок, «козирі» 53, день народження 49.</li>
+      <li><b>Колаби з Юлею.</b> Анонси тренінгів у Малині збирають до 89 вподобайок.</li>
+      <li><b>Довіра.</b> Освіта в дописах, геотеги Малина, аватар з обличчям.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Колеги поруч</h2>
+    <p class="lead" style="margin-bottom:18px">З пошуку Instagram «психолог малин» і «психолог житомир».</p>
+    <div class="comp">
+      <div class="cc">
+        <h3><a href="https://www.instagram.com/ksenyalex35/">@ksenyalex35</a></h3>
+        <div class="nums"><span><b>6 521</b> читач</span><span>медіана рілса <b>177</b></span><span>дописів за 30 днів: <b>0</b></span></div>
+        <p>У шапці «Онлайн · Малин» і запис через форму.</p>
+      </div>
+      <div class="cc">
+        <h3><a href="https://www.instagram.com/psy_oksana_ma/">@psy_oksana_ma</a></h3>
+        <div class="nums"><span><b>163</b> читачі</span><span>медіана рілса <b>226</b></span><span>дописів за 30 днів: <b>3</b></span></div>
+        <p>У шапці «онлайн/офлайн» і «Запис в дірект».</p>
+      </div>
+      <div class="cc">
+        <h3><a href="https://www.instagram.com/psy_iryna_belke/">@psy_iryna_belke</a></h3>
+        <div class="nums"><span><b>1 232</b> читачі</span><span>медіана рілса <b>1 632</b></span><span>дописів за 30 днів: <b>2</b></span></div>
+        <p>Свій тон у шапці: «про психологію без цукру».</p>
+      </div>
+      <div class="cc">
+        <h3><a href="https://www.instagram.com/nataliia_tsyganenko_psy/">@nataliia_tsyganenko_psy</a></h3>
+        <div class="nums"><span><b>1 276</b> читачів</span><span>медіана рілса <b>728</b></span><span>дописів за 30 днів: <b>9</b></span></div>
+        <p>Хайлайти за запитами: «Страхи», «Сором», «Безпека».</p>
+      </div>
+    </div>
+    <div class="callout">Спільне: місто й формат у шапці, запис одним дотиком, хайлайти «Консультації» й «Відгуки».</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Чого чекати за 1–3 місяці</h2>
+    <div class="plan">
+      <div><b>Місяць 1</b>Нова шапка, хайлайти, закріплені. Перша зйомка.</div>
+      <div><b>Місяць 2</b>Дивлюсь, які теми дають звернення, і пишу нові під них.</div>
+      <div><b>Місяць 3</b>Стабільний ритм і ваша власна статистика.</div>
+    </div>
+    <div class="callout">Цифр приросту не обіцяю: результат залежить від зйомок, швидкості відповідей і сезону. Міряю від бази: медіана рілса 305, 4 дописи за 30 днів.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Що пропоную</h2>
+    <div class="packs">
+      <div class="pack">
+        <h3>Упаковка і стиль</h3>
+        <div class="price">5 000 грн</div>
+        <div class="per">разово</div>
+        <ul>
+          <li>Шапка й опис у Telegram</li>
+          <li>3 закріплені, 5 хайлайтів з обкладинками</li>
+          <li>10 шаблонів Canva у ваших кольорах для анонсів, дописів і сторіз</li>
+        </ul>
+        <div class="closes">Пункти 01–08.</div>
+      </div>
+      <div class="pack">
+        <h3>Рілси</h3>
+        <div class="price">4 000 грн</div>
+        <div class="per">на місяць</div>
+        <ul>
+          <li>4 розмовні рілси: теми й текст для суфлера</li>
+          <li>Зйомка до 1 год на місяць</li>
+          <li>Монтаж із субтитрами, обкладинки, підписи із закликом</li>
+        </ul>
+        <div class="closes">Пункти 09–10.</div>
+      </div>
+      <div class="pack main">
+        <h3>Повне ведення</h3>
+        <div class="price">15 000 грн</div>
+        <div class="per">на місяць</div>
+        <ul>
+          <li>8 рілсів, 4 каруселі, 8 сторітелів</li>
+          <li>План, скрипт відповідей у Direct</li>
+          <li>Звіт щомісяця</li>
+        </ul>
+        <div class="closes">Пункти 08–11.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Наступний крок</h2>
+    <p class="lead">На дзвінку покажу план першого місяця і 4 теми для зйомки.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Дані: публічні сторінки @sukonnik_mila і t.me/sla_3870, 10.11.2026; 48 дописів за 12 місяців. Перегляди рілсів = покази з вкладки Reels. Insights немає. «Як варто» зроблено на вашій сторінці з ваших фото й підписів, календар «варто» = план.</p>
+  </div>
+</footer>
+
+</body>
+</html>
