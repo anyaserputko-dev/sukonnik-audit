@@ -96,6 +96,16 @@ i.t.half{background:#fff!important;color:#5F6B33;border:2px dashed #5F6B33;box-s
 .legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;color:var(--muted);margin:6px 0 26px}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 .pack .gives{font-size:15px;margin-top:12px}
+.first{background:#fff;border-radius:22px;padding:24px 26px;margin-bottom:22px;border:1px solid #E8E1DA}
+.first h3{margin:0 0 12px}
+.first ul.cols{columns:2;column-gap:32px;margin:0;padding-left:20px}
+.first li{break-inside:avoid;margin-bottom:8px}
+.an{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.an figure{margin:0;background:#fff;border-radius:18px;padding:14px;border:1px solid #E8E1DA}
+.an figure.wide{grid-column:1/-1}
+.an img{width:100%;height:auto;display:block;border-radius:10px}
+.an figcaption{font-size:15px;margin-top:10px;color:var(--muted)}
+@media (max-width:700px){.first ul.cols{columns:1}.an{grid-template-columns:1fr}}
 .pack ul{margin-bottom:6px}
 @media (max-width:900px){.packs{grid-template-columns:1fr}}
 
@@ -117,9 +127,10 @@ a.shot{border-color:#d6d6d6;box-shadow:0 10px 26px rgba(0,0,0,.10)}
 </head>
 <body>
 
-<header class="hero"><img class="silk" src="img/silk.png" alt="" aria-hidden="true">
+<header class="hero">
+  <img class="silk" src="img/silk.png" alt="" aria-hidden="true">
   <div class="wrap">
-    <div class="kicker">Аудит Instagram · 10 листопада 2026</div>
+    <div class="kicker">Аудит Instagram · 11 листопада 2026</div>
     <h1>Людмила Суконнік,<br>психолог і нумеролог, Малин</h1>
     <p class="sub">Розбір публічної сторінки <a href="https://www.instagram.com/sukonnik_mila/">@sukonnik_mila</a> станом на 10.11.2026.</p>
     <div class="stats">
@@ -148,7 +159,7 @@ a.shot{border-color:#d6d6d6;box-shadow:0 10px 26px rgba(0,0,0,.10)}
         <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/prof_before.jpg" target="_blank"><img src="img/c_bio_now.jpg" alt="Як зараз: Шлях до запису в шапці" loading="lazy"></a></figure>
         <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/prof_after_bio.jpg" target="_blank"><img src="img/c_bio_should.jpg" alt="Як варто: Шлях до запису в шапці" loading="lazy"></a></figure>
       </div>
-      <p class="note">Зараз немає міста, формату й запису. Варто: психологія з нумерологією, самооцінка й стосунки, один заклик.</p>
+      <p class="note">Зараз немає міста, формату й запису. Варто: психологія з нумерологією, самооцінка й стосунки, запис у Direct або Telegram.</p>
     </div>
     <div class="pair" id="p02">
       <div class="phead"><span class="num">02</span><h3>Малин в імені профілю</h3></div>
@@ -188,7 +199,7 @@ a.shot{border-color:#d6d6d6;box-shadow:0 10px 26px rgba(0,0,0,.10)}
         <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/grid_before.jpg" target="_blank"><img src="img/c_pins_now.jpg" alt="Як зараз: Три закріплені дописи" loading="lazy"></a></figure>
         <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/grid_after_pins.jpg" target="_blank"><img src="img/c_pins_should.jpg" alt="Як варто: Три закріплені дописи" loading="lazy"></a></figure>
       </div>
-      <p class="note">Зараз закріплене одне знайомство. Варто додати атестацію (108 вподобайок) і тренінг 15.11.</p>
+      <p class="note">Варто закріпити три відповіді на питання нової людини: хто ви й чим допоможете, як проходить консультація і як записатися, що дає розбір дати народження.</p>
     </div>
     <div class="pair" id="p07">
       <div class="phead"><span class="num">07</span><h3>Хайлайти по шляху клієнтки</h3></div>
@@ -196,15 +207,15 @@ a.shot{border-color:#d6d6d6;box-shadow:0 10px 26px rgba(0,0,0,.10)}
         <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/prof_before.jpg" target="_blank"><img src="img/c_hl_now.jpg" alt="Як зараз: Хайлайти по шляху клієнтки" loading="lazy"></a></figure>
         <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/prof_after_hl.jpg" target="_blank"><img src="img/c_hl_should.jpg" alt="Як варто: Хайлайти по шляху клієнтки" loading="lazy"></a></figure>
       </div>
-      <p class="note">Зараз один хайлайт. Варто: Про мене, Цінність, Стосунки, Цифри, Тренінги, Відгуки.</p>
+      <p class="note">Зараз один хайлайт. Варто шість, з ваших студійних фото: Про мене, Цінність, Стосунки, Цифри, Тренінги, Відгуки.</p>
     </div>
     <div class="pair" id="p08">
-      <div class="phead"><span class="num">08</span><h3>Стрічка з вашим обличчям</h3></div>
+      <div class="phead"><span class="num">08</span><h3>Стрічка: рілси й каруселі по черзі</h3></div>
       <div class="duo">
-        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/feed_before.jpg" target="_blank"><img src="img/c_feed_now.jpg" alt="Як зараз: Стрічка з вашим обличчям" loading="lazy"></a></figure>
-        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/feed_after.jpg" target="_blank"><img src="img/c_feed_should.jpg" alt="Як варто: Стрічка з вашим обличчям" loading="lazy"></a></figure>
+        <figure><figcaption class="lab now">Як зараз</figcaption><a class="shot" href="img/feed_before.jpg" target="_blank"><img src="img/c_feed_now.jpg" alt="Як зараз: Стрічка: рілси й каруселі по черзі" loading="lazy"></a></figure>
+        <figure><figcaption class="lab todo">Як варто</figcaption><a class="shot" href="img/feed_after.jpg" target="_blank"><img src="img/c_feed_should.jpg" alt="Як варто: Стрічка: рілси й каруселі по черзі" loading="lazy"></a></figure>
       </div>
-      <p class="note">Психологічні дописи мають медіану 8 вподобайок, особисті 21. Варто: ті самі теми на ваших фото.</p>
+      <p class="note">Психологічні дописи мають медіану 8 вподобайок, особисті 21. Варто: щотижня рілс, карусель, рілс. Рілси на ваших фото, каруселі світлі, з одним шрифтом і палітрою.</p>
     </div>
     <div class="pair" id="p09">
       <div class="phead"><span class="num">09</span><h3>Тема на обкладинці рілса</h3></div>
@@ -278,9 +289,9 @@ a.shot{border-color:#d6d6d6;box-shadow:0 10px 26px rgba(0,0,0,.10)}
   <div class="wrap">
     <h2>Чого чекати за 1–3 місяці</h2>
     <div class="plan">
-      <div><b>Місяць 1</b>Упаковка профілю, стиль стрічки, перша зйомка.</div>
-      <div><b>Місяць 2</b>Дивлюсь, які теми дають звернення, і пишу нові під них.</div>
-      <div><b>Місяць 3</b>Стабільний ритм і ваша власна статистика.</div>
+      <div><b>Місяць 1</b>Стратегія, повна упаковка профілю, контент-план, перша зйомка і перші публікації.</div>
+      <div><b>Місяць 2</b>Запуск реклами. За щотижневою аналітикою бачу, які теми дають звернення, і пишу нові під них.</div>
+      <div><b>Місяць 3</b>Стабільний ритм, перший порівняльний звіт за три місяці.</div>
     </div>
     <div class="callout">Цифр приросту не обіцяю: результат залежить від зйомок, швидкості відповідей і сезону. Міряю від бази: медіана рілса 305, 4 дописи за 30 днів.</div>
   </div>
@@ -289,51 +300,76 @@ a.shot{border-color:#d6d6d6;box-shadow:0 10px 26px rgba(0,0,0,.10)}
 <section>
   <div class="wrap">
     <h2>Що пропоную</h2>
-    <p class="lead" style="margin-bottom:8px">Три обсяги щомісячного ведення. Перший місяць у кожному включає упаковку профілю: позиціонування (психологія + нумерологія), шапку, 3 закріплені, 5–6 хайлайтів з ваших кадрів і шаблони Canva у вашому стилі.</p>
+    <p class="lead" style="margin-bottom:18px">Довгострокове ведення, три обсяги на вибір. У будь-якому з них перший місяць — запуск.</p>
+    <div class="first">
+      <h3>Перший місяць у кожному пакеті</h3>
+      <ul class="cols">
+        <li>Стратегія: позиціонування «психологія + нумерологія», аудиторія 18–30, рубрики</li>
+        <li>Розбір колег у Малині й Житомирі</li>
+        <li>Контент-план на місяць</li>
+        <li>Повна упаковка: ім'я, шапка, категорія, кнопка «Контакти», опис у Telegram</li>
+        <li>3 закріплені дописи і 6 хайлайтів з обкладинками</li>
+        <li>Стиль стрічки і шаблони Canva для рілсів, каруселей і сторіс</li>
+        <li>Скрипт відповідей у Direct і Telegram</li>
+        <li>Готовий текст суфлера на першу зйомку</li>
+      </ul>
+    </div>
     <div class="legend"><span><i class="t r">Р</i>рілс</span><span><i class="t k">К</i>карусель</span><span><i class="t s">С</i>сторітел, 3–5 сторіс</span><span><i class="t k half">К</i>раз на 2 тижні</span></div>
     <div class="packs">
       <div class="pack">
         
         <h3>Легкий</h3>
-        <div class="price">8 000 грн</div>
+        <div class="price">7 000 грн</div>
         <div class="per">на місяць</div>
         <div class="sub">На тиждень</div>
         <div class="wkline">1 рілс · 1 сторітел · карусель раз на 2 тижні</div>
         <div class="week"><div class="day"><span>Пн</span><div><i class="t r">Р</i></div></div><div class="day"><span>Вт</span><div></div></div><div class="day"><span>Ср</span><div><i class="t k half">К</i></div></div><div class="day"><span>Чт</span><div><i class="t s">С</i></div></div><div class="day"><span>Пт</span><div></div></div><div class="day"><span>Сб</span><div></div></div><div class="day"><span>Нд</span><div></div></div></div>
         <div class="sub">На місяць</div>
-        <ul><li>4 рілси, 2 каруселі, 4 сторітели</li><li>Рілси дублюємо в TikTok</li><li>Контент-план, анонс кожного тренінгу</li><li>Звіт раз на місяць</li></ul>
+        <ul><li>4 рілси, 2 каруселі, 4 сторітели</li><li>Контент-план, анонс кожного тренінгу</li><li>Аналітика щотижня і звіт щомісяця</li></ul>
         <div class="time"><b>Ваш час на місяць:</b> 1 зйомка до 1 год (4 теми з готовим текстом суфлера) і до 15 хв на тиждень на погодження.</div>
         <div class="gives"><b>Що це дає:</b> Стабільна присутність без провалів (у вересні було 0 дописів), ваше обличчя й голос у стрічці щотижня.</div>
       </div>
       <div class="pack main">
         <div class="badge">Рекомендую</div>
         <h3>Золотий</h3>
-        <div class="price">15 000 грн</div>
+        <div class="price">12 000 грн</div>
         <div class="per">на місяць</div>
         <div class="sub">На тиждень</div>
         <div class="wkline">2 рілси · 1 карусель · 2 сторітели</div>
-        <div class="week"><div class="day"><span>Пн</span><div><i class="t r">Р</i></div></div><div class="day"><span>Вт</span><div><i class="t s">С</i></div></div><div class="day"><span>Ср</span><div><i class="t k">К</i></div></div><div class="day"><span>Чт</span><div></div></div><div class="day"><span>Пт</span><div><i class="t r">Р</i></div></div><div class="day"><span>Сб</span><div><i class="t s">С</i></div></div><div class="day"><span>Нд</span><div></div></div></div>
+        <div class="week"><div class="day"><span>Пн</span><div><i class="t r">Р</i></div></div><div class="day"><span>Вт</span><div><i class="t s">С</i></div></div><div class="day"><span>Ср</span><div><i class="t k">К</i></div></div><div class="day"><span>Чт</span><div><i class="t s">С</i></div></div><div class="day"><span>Пт</span><div><i class="t r">Р</i></div></div><div class="day"><span>Сб</span><div></div></div><div class="day"><span>Нд</span><div></div></div></div>
         <div class="sub">На місяць</div>
-        <ul><li>8 рілсів (+ TikTok), 4 каруселі, 8 сторітелів</li><li>Контент-план і рубрики для дівчат і жінок 18–30</li><li>Скрипт відповідей у Direct: консультація, нумерологічний розбір, тренінг</li><li>Прогрів до кожного тренінгу: сторітел і рілс за тиждень до події</li><li>Опис і закріп у Telegram</li><li>Звіт і розбір щомісяця</li></ul>
+        <ul><li>8 рілсів, 4 каруселі, 8 сторітелів</li><li>Сторітели у вівторок і четвер</li><li>Контент-план і рубрики для дівчат і жінок 18–30</li><li>Скрипт відповідей у Direct і Telegram: консультація, нумерологічний розбір, тренінг</li><li>Прогрів до кожного тренінгу: сторітел і рілс за тиждень до події</li><li>Реклама з другого місяця: налаштування й ведення входять у ціну, рекламний бюджет 3–5 тис. грн на місяць окремо, оплачується напряму Meta</li><li>Аналітика щотижня і звіт з розбором щомісяця</li></ul>
         <div class="time"><b>Ваш час на місяць:</b> 2 зйомки до 1,5 год і до 15 хв на тиждень.</div>
-        <div class="gives"><b>Що це дає:</b> Ритм 3 публікації на тиждень плюс сторіс. Тренінги продаються з вашого акаунта, Direct стає зрозумілим шляхом до запису.</div>
+        <div class="gives"><b>Що це дає:</b> Ритм 3 публікації на тиждень плюс сторіс. З другого місяця реклама приводить нових людей, тренінги продаються з вашого акаунта, а Direct і Telegram стають зрозумілим шляхом до запису.</div>
       </div>
       <div class="pack">
         
         <h3>Максимум</h3>
-        <div class="price">22 000 грн</div>
+        <div class="price">18 000 грн</div>
         <div class="per">на місяць</div>
         <div class="sub">На тиждень</div>
         <div class="wkline">3 рілси · 1–2 каруселі · 3 сторітели</div>
         <div class="week"><div class="day"><span>Пн</span><div><i class="t r">Р</i></div></div><div class="day"><span>Вт</span><div><i class="t k">К</i><i class="t s">С</i></div></div><div class="day"><span>Ср</span><div><i class="t r">Р</i></div></div><div class="day"><span>Чт</span><div><i class="t k half">К</i><i class="t s">С</i></div></div><div class="day"><span>Пт</span><div><i class="t r">Р</i></div></div><div class="day"><span>Сб</span><div></div></div><div class="day"><span>Нд</span><div><i class="t s">С</i></div></div></div>
         <div class="sub">На місяць</div>
-        <ul><li>12 рілсів (+ TikTok), 6 каруселей, 12 сторітелів</li><li>Усе із «Золотого»</li><li>Дзвінок 30 хв щомісяця за результатами</li><li>Реклама в Instagram на тренінги в Малині: налаштування і креативи з рілсів, що вже зайшли. Бюджет окремо, оплачується напряму Meta</li></ul>
+        <ul><li>12 рілсів, 6 каруселей, 12 сторітелів</li><li>Усе із «Золотого»</li><li>Реклама на консультації й окремо на кожен тренінг у Малині, креативи з рілсів, що вже зайшли</li><li>Дзвінок 30 хв щомісяця за результатами</li></ul>
         <div class="time"><b>Ваш час на місяць:</b> 3 зйомки до 1,5 год.</div>
-        <div class="gives"><b>Що це дає:</b> Найшвидший набір нових людей: органіка плюс реклама на тренінги.</div>
+        <div class="gives"><b>Що це дає:</b> Найшвидший набір нових людей: більше контенту плюс реклама і на консультації, і на тренінги.</div>
       </div>
 
     </div>
     <div class="callout"><b>Що міряємо щомісяця:</b> перегляди рілсів, нові читачі, звернення в Direct і Telegram, записи на тренінги й консультації. Орієнтир, не гарантія: у колег з карток вище (@nataliia_tsyganenko_psy, @psy_iryna_belke) медіана рілса 728 і 1 632 перегляди, у вас зараз 305.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Аналітика щотижня і щомісяця</h2>
+    <p class="lead" style="margin-bottom:18px">Щопонеділка заповнюю таблицю показників за тиждень. На початку місяця — звіт зі статистики Instagram і висновки: що працює, що міняємо, які цілі на наступний місяць. Нижче приклади з іншого мого проєкту, назву прибрано.</p>
+    <div class="an">
+      <figure class="wide"><img src="img/an_week.jpg" alt="Таблиця показників по тижнях" loading="lazy"><figcaption><b>Щотижня.</b> Підписники, приріст, дописи, сторіс, вподобайки, коментарі, збереження, поширення.</figcaption></figure>
+      <figure><img src="img/an_month.jpg" alt="Статистика за місяць" loading="lazy"><figcaption><b>Щомісяця.</b> Перегляди, охоплення, взаємодії, кліки, відвідування профілю, нові читачі.</figcaption></figure>
+      <figure><img src="img/an_top.jpg" alt="Найкращий контент і дії в профілі" loading="lazy"><figcaption><b>Що спрацювало.</b> Найкращий контент місяця, дії в профілі, години активності аудиторії.</figcaption></figure>
+    </div>
   </div>
 </section>
 
